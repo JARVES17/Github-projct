@@ -5,11 +5,14 @@
  1. git add .
  2. git commit -m "Initial commit"
  3. git push origin main
- 4. Updated the readme file and commit
- 5. git checkout -b new-branch [create new br]
- 6. git add findex.html [specific file add ]
+ 5. git checkout -b BRANCH_NAME [create new branch]
+ 6. git add FILE_NAME [specific file add ]
  7. git branch [to check branches in project]
- 
+ 8. git merge BRANCH_NAME [merge to origin branch]
+ 9. git branch -D BRANCH_NAME [deltes the branch]
+ 10. git push -u origin BRANCH_NAME [publish the branch]
+ 11. git push origin --delete  BRANCH_NAME [Delets the published Branch]
+ 12. git clone URL [Clone the repo to your local machine]
 
 (base) C:\Users\shant\OneDrive\Desktop\Git_proj\Github-projct>git commit -m "updated the readme
  file"
@@ -430,13 +433,3 @@ branch 'new-branch' set up to track 'origin/new-branch'.
 (base) C:\Users\shant\OneDrive\Desktop\Git_proj\Github-projct>git push origin --delete new-branch
 To https://github.com/JARVES17/Github-projct.git
  - [deleted]         new-branch
-
-
-
-
-
-
-
-
-
- #Project status: Active
